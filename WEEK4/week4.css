@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(124, 154, 163);
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}

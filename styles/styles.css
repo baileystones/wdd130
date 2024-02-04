@@ -1,17 +1,55 @@
-body {
-    background-color: rgb(124, 154, 163);
+n*{
+    /*border: 2px solid red; */
 }
 
+body {
+    background-color: rgb(124, 154, 163);
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+header, footer {
+    background-color: rgb(164, 166, 190);
+}
 .nav_link {
     padding: 10px;
     color: black;
     font-size: 1.3em;
 }
-
-#main_title {
-    font-size: 2em;
+nav {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
 }
 
+a {
+    color: black;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: gray;
+}
+p, h3{
+    text-align: center;
+}
+#main_title {
+    font-size: 2em;
+    text-align: center;
+}
 #sub_title {
     color: red;
+}
+footer {
+    padding: 20px;
 }
