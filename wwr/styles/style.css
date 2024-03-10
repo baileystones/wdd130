@@ -193,11 +193,55 @@
     /*RIVERS PAGE CSS - MAKE SURE YOU LABEL IMAGES VERY SPECIFICALLY SO YOU DONT MESS UP YOUR HOME PAGE*/
 
 
-    .river-grid{
-
+   .river-grid{
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        grid-gap: 10px;
+        margin: auto;
+        max-width: 900px;
     }
 
-    
+    .salmon-card{ 
+        display: grid;
+        grid-template-columns: 1fr auto; 
+        grid-gap: 20px; 
+    }
+    .desolation-card{ 
+        display: grid;
+        grid-template-columns: 1fr auto; 
+        grid-gap: 20px;
+    }
+    .grand-card{ 
+        display: grid;
+        grid-template-columns: 1fr auto; 
+        grid-gap: 20px;
+    }
+
+    .text-box{
+      max-width: 400px;
+      margin: auto;
+    }
+    .text-box h2{
+        font-size: 30px;
+    }
+    .text-box p{
+        font-size: 16px;
+    }
+    .salmon-card img {
+        display: block;
+        margin: auto;
+    }
+    .desolation-card img {
+        display: block;
+        margin: auto;
+    }
+    .grand-card img {
+        display: block;
+        margin: auto;
+    }
+
+   
+
 
     /* DON'T ADD ANYTHING AFTER THIS POINT */ 
 
