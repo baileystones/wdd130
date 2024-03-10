@@ -204,21 +204,21 @@
     .salmon-card{ 
         display: grid;
         grid-template-columns: 1fr auto; 
-        grid-gap: 20px; 
+        grid-gap: 100px; 
     }
     .desolation-card{ 
         display: grid;
         grid-template-columns: 1fr auto; 
-        grid-gap: 20px;
+        grid-gap: 100px;
     }
     .grand-card{ 
         display: grid;
         grid-template-columns: 1fr auto; 
-        grid-gap: 20px;
+        grid-gap: 100px;
     }
 
     .text-box{
-      max-width: 400px;
+      max-width: 600px;
       margin: auto;
     }
     .text-box h2{
@@ -230,14 +230,17 @@
     .salmon-card img {
         display: block;
         margin: auto;
+        border: 10px solid #3D5A80
     }
     .desolation-card img {
         display: block;
         margin: auto;
+        border: 10px solid #3D5A80
     }
     .grand-card img {
         display: block;
         margin: auto;
+        border: 10px solid #3D5A80
     }
 
    
