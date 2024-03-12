@@ -252,11 +252,11 @@
 
    form {
     /* Center the form on the page */
-    margin: 100px auto;
+    margin: 10px auto;
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 1em;
   }
   
@@ -317,7 +317,7 @@
   }
 
   #feedback {
-    background-color: antiquewhite;
+    background-color: #CCC2C3;
     position: absolute;
     top: 0;
     left: 0;
