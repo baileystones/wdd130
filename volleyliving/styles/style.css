@@ -294,3 +294,70 @@ footer p a:hover {
     margin-top: 20px;
 }
 
+
+/*GET INVOLVED CSS*/
+.involved-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    padding: 50px;
+    grid-gap: 30px; 
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.college-vb, .pro-vb, .club-vb, .beginner-vb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 5px;
+    line-height: 1.5;
+    text-align: left;
+}
+.college-vb h2, .pro-vb h2, .club-vb h2, .beginner-vb h2{
+    font-size: 40px;
+    font-family: "Bebas Neue", Tahoma, Georgia;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+.college-vb p, .pro-vb p, .club-vb p, .beginner-vb p{
+    font-size: 15px;
+    font-family: "Lora", Helvetica, sans-serif;
+    margin-top: 5px;
+    max-width: 80%;
+    text-align: left;
+    margin-left: 100px;
+}
+.involved-grid > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: span 4;
+}
+.reg-image, .lar-image{
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.reg-image img, .lar-image img{
+    max-width: 100%;
+    max-height: 300px; 
+    object-fit: contain; 
+    border: 20px solid #8F8F8F;
+    margin-left: 250px;
+}
+
+.reg-image{
+    margin-right: 15px;
+}
+
+.lar-image{
+    margin-left: 15px;
+}
+
+
